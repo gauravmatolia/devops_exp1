@@ -1,0 +1,41 @@
+
+/* Style the entire page */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+/* Style the student card */
+.card {
+    width: 300px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: left;
+}
+
+/* Style the heading */
+.card h2 {
+    text-align: center;
+    color: #2563eb;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* Style the student details */
+.card p {
+    font-size: 16px;
+    color: #333;
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.card strong {
+    color: #111827;
+}
